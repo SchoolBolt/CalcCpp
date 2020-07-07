@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Expressions\AddOperation.cpp">
+      <Filter>Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Expressions\BinaryOperation.cpp">
+      <Filter>Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Expressions\DivideOperation.cpp">
+      <Filter>Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Expressions\MultiplyOperation.cpp">
+      <Filter>Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Expressions\NumberExpr.cpp">
+      <Filter>Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Expressions\SubtractOperation.cpp">
+      <Filter>Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser\Parser.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser\ParserImpl.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Expressions">
+      <UniqueIdentifier>{e4f62f82-ef2e-4f5c-bf35-bf173d304996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser">
+      <UniqueIdentifier>{cf2a522e-d36c-4a95-96de-9100375d67a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Expressions\AddOperation.h">
+      <Filter>Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Expressions\BinaryOperation.h">
+      <Filter>Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Expressions\DivideOperation.h">
+      <Filter>Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Expressions\Expression.h">
+      <Filter>Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Expressions\MultiplyOperation.h">
+      <Filter>Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Expressions\NumberExpr.h">
+      <Filter>Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Expressions\SubtractOperation.h">
+      <Filter>Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser\Parser.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser\ParserException.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser\ParserImpl.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Expressions.h" />
+    <ClInclude Include="Parser.h" />
+  </ItemGroup>
+</Project>
