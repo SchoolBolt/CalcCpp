@@ -1,1 +1,1 @@
-g++ -std=c++11 -Wall -Wpedantic main.cpp Expressions/*.cpp Parser/*.cpp -o calc
+g++ -std=c++11 -Wall -Wpedantic main.cpp Expressions/AddOperation.cpp Expressions/BinaryOperation.cpp Expressions/DivideOperation.cpp Expressions/MultiplyOperation.cpp Expressions/NumberExpr.cpp Expressions/SubtractOperation.cpp Parser/Parser.cpp Parser/ParserImpl.cpp -o calc
